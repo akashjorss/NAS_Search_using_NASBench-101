@@ -42,5 +42,5 @@ This is a good news! If good architectures perform well on multiple datasets, it
 We need to test the correlation between other datasets though before we can make any generalizations.
 
 
-![CIFAR_vs_MNIST_accuracy](./figures/accuracy_comparison_108_epochs.png = 200x300)
+![CIFAR_vs_MNIST_accuracy](./figures/accuracy_comparison_108_epochs.png=200x300)
 

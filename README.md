@@ -13,12 +13,15 @@ The following figure shows accuracy over time.
 ![Accuracy_Comparison_Search_Time](./figures/comparison_search_time.png)
 
 The following figure shows mean accuracy and variance over time. 
+
 ![Mean_Accuracy_Comparison_Search_Time](./figures/comparison_search_time2.png)
 
 The following figure shows accuracy over number of nodes explored. 
+
 ![Accuracy_Comparison_Num_Cells](./figures/comparison_search_num_cells.png)
 
 The following figure shows mean accuracy and variance over numberof nodes explored. 
+
 ![Mean_Accuracy_Comparison_Search_Time](./figures/comparison_search_num_cells2.png)
 
 We see that the performance of the tree search is not very satisfactory. One of the reasons is that it is not exploring as many number of cells as random search or evolution search. But even when number of nodes is same, for high enough number of, the performance is not better.
@@ -41,6 +44,4 @@ This is a good news! If good architectures perform well on multiple datasets, it
 
 We need to test the correlation between other datasets though before we can make any generalizations.
 
-
-<img src="./figures/accuracy_comparison_108_epochs.png" alt="CIFAR_vs_MNIST_accuracy" width="300", height="200"/>
-
+![](./figures/accuracy_comparison_108_epochs.png)

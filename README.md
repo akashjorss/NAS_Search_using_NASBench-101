@@ -42,6 +42,6 @@ As seen in figure below, we notice that the performance of sampled architectures
 
 This is a good news! If good architectures perform well on multiple datasets, it could give us a good starting point when we are selecting architecture for our own CNN project.
 
-![](./figures/accuracy_comparison_108_epochs.png)
+<img src="./figures/accuracy_comparison_108_epochs.png" width="300" height="300"/>
 
 We need to test the correlation between other datasets though before we can make any generalizations.

@@ -32,6 +32,7 @@ Distance is how many tuples are in cell1 that are not in cell2, plus the size di
 The distance is commutative.
 
 As seen in the figure below, there is not a high correlation between distance and performance of CNN of composed of cells. That means, similar cells, don't necessarily yield similar accuracies. (So, tree search is not a good search algorithm for this dataset).
+
 ![Distance_vs_Accuracy](./figures/distance_vs_accuracy.png)
 
 As seen in figure below, we notice that the performance of sampled architectures are highly correlated. The correlation is higher with large number of epochs, as network reaches more stability.
@@ -41,5 +42,5 @@ This is a good news! If good architectures perform well on multiple datasets, it
 We need to test the correlation between other datasets though before we can make any generalizations.
 
 
-![CIFAR_vs_MNIST_accuracy](./figures/accuracy_comparison_108_epochs.png)
+![CIFAR_vs_MNIST_accuracy](./figures/accuracy_comparison_108_epochs.png = 200x300)
 

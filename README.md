@@ -44,4 +44,4 @@ This is a good news! If good architectures perform well on multiple datasets, it
 
 We need to test the correlation between other datasets though before we can make any generalizations.
 
-![](./figures/accuracy_comparison_108_epochs.png =300x300)
+![](./figures/accuracy_comparison_108_epochs.png){:height="50%" width="50%"}

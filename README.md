@@ -54,7 +54,7 @@ We need to test the correlation between other datasets though before we can make
 
 So we also test this hypothesis on Imagenette dataset. We modify the structure of CNN by adding few more layers in the beginning as Image resolution is higher in Imagenette and then train the network for 36 epochs. We still get a significant corerlation albeit low number of samples. 
 
-![CIFAR_vs_Imagenette_accuracy](./figures/cifar_108_imgnet_36.png ==300x300)
+![CIFAR_vs_Imagenette_accuracy](./figures/cifar_108_imgnet_36.png){width=50%}
 
 <!-- 
 <img src="./figures/cifar_108_imgnet_36.png" alt="CIFAR_vs_Imagenette_accuracy" width="300", height="200"/>

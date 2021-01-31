@@ -13,13 +13,11 @@ The following figure shows accuracy over time.
 ![Accuracy_Comparison_Search_Time](./figures/comparison_search_time.png)
 
 The following figure shows mean accuracy and variance over time. 
-![Mean_Accuracy_Comparison_Search_Time](./figures/comparison_search_time2.png)
+![Mean_Accuracy_Comparison_Search_Time](./figures/comparison_search_mean.png)
 
 The following figure shows accuracy over number of nodes explored. 
-![Accuracy_Comparison_Num_Cells](./figures/comparison_search_num_cells.png)
+![Accuracy_Comparison_Num_Cells](./figures/comparison_search_cells.png)
 
-The following figure shows mean accuracy and variance over numberof nodes explored. 
-![Mean_Accuracy_Comparison_Search_Time](./figures/comparison_search_num_cells2.png)
 
 We see that the performance of the tree search is not very satisfactory. One of the reasons is that it is not exploring as many number of cells as random search or evolution search. But even when number of nodes is same, for high enough number of, the performance is not better.
 
@@ -37,10 +35,17 @@ As seen in the figure below, there is not a high correlation between distance an
 
 As seen in figure below, we notice that the performance of sampled architectures are highly correlated. The correlation is higher with large number of epochs, as network reaches more stability.
 
+<img src="./figures/cifar_108_fmnist_6.png" alt="CIFAR_vs_MNIST_accuracy" width="300", height="200"/>
+
 This is a good news! If good architectures perform well on multiple datasets, it could give us a good starting point when we are selecting architecture for our own CNN project.
 
 We need to test the correlation between other datasets though before we can make any generalizations.
 
+So we also test this hypothesis on Imagenette dataset. We modify the structure of CNN by adding few more layers in the beginning as Image resolution is higher in Imagenette and then train the network for 36 epochs. We still get a significant corerlation albeit low number of samples. 
 
-<img src="./figures/accuracy_comparison_108_epochs.png" alt="CIFAR_vs_MNIST_accuracy" width="300", height="200"/>
+<img src="./figures/cifar_108_imgnet_36.png" alt="CIFAR_vs_MNIST_accuracy" width="300", height="200"/>
+
+
+
+
 

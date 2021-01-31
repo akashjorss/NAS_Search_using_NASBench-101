@@ -8,6 +8,8 @@ The goal of this project is
 2. o gain some insights about this dataset.
 3. To compare performance of sampled architectures on some other dataset compared to its performance on CIFAR-10.
 
+Colab link: https://drive.google.com/file/d/18xkCB5xDTW_XCvsAPvkbMSxmuBM9SNxH/view?usp=sharing
+
 In the following figure we compare performance different search algorithms for 10 runs. The metric is how fast the search algorithm finds the architecture with highest accuracy. 
 The following figure shows accuracy over time. 
 ![Accuracy_Comparison_Search_Time](./figures/comparison_search_time.png)

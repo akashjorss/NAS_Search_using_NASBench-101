@@ -12,19 +12,12 @@ In the following figure we compare performance different search algorithms for 1
 The following figure shows accuracy over time. 
 ![Accuracy_Comparison_Search_Time](./figures/comparison_search_time.png)
 
-The following figure shows mean accuracy and variance over time. 
-![Mean_Accuracy_Comparison_Search_Time](./figures/comparison_search_mean.png)
-
 The following figure shows accuracy over number of nodes explored. 
 ![Accuracy_Comparison_Num_Cells](./figures/comparison_search_cells.png)
 
-![Mean_Accuracy_Comparison_Search_Time](./figures/comparison_search_time2.png)
 
-The following figure shows accuracy over number of nodes explored. 
-
-![Accuracy_Comparison_Num_Cells](./figures/comparison_search_num_cells.png)
-
-The following figure shows mean accuracy and variance over numberof nodes explored. 
+The following figure shows mean accuracy and variance over time. 
+![Mean_Accuracy_Comparison_Search_Time](./figures/comparison_search_mean.png)
 
 
 We see that the performance of the tree search is not very satisfactory. One of the reasons is that it is not exploring as many number of cells as random search or evolution search. But even when number of nodes is same, for high enough number of, the performance is not better.

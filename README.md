@@ -43,8 +43,10 @@ As seen in the figure below, there is not a high correlation between distance an
 
 As seen in figure below, we notice that the performance of sampled architectures are highly correlated. The correlation is higher with large number of epochs, as network reaches more stability.
 
+![CIFAR_vs_MNIST_accuracy](./figures/cifar_108_fmnist_6.png)
+<!-- 
 <img src="./figures/cifar_108_fmnist_6.png" alt="CIFAR_vs_MNIST_accuracy" width="300", height="200"/>
-
+ -->
 This is a good news! If good architectures perform well on multiple datasets, it could give us a good starting point when we are selecting architecture for our own CNN project.
 
 
@@ -52,7 +54,10 @@ We need to test the correlation between other datasets though before we can make
 
 So we also test this hypothesis on Imagenette dataset. We modify the structure of CNN by adding few more layers in the beginning as Image resolution is higher in Imagenette and then train the network for 36 epochs. We still get a significant corerlation albeit low number of samples. 
 
-<img src="./figures/cifar_108_imgnet_36.png" alt="CIFAR_vs_MNIST_accuracy" width="300", height="200"/>
+![CIFAR_vs_Imagenette_accuracy](./figures/cifar_108_imgnet_36.png)
 
+<!-- 
+<img src="./figures/cifar_108_imgnet_36.png" alt="CIFAR_vs_Imagenette_accuracy" width="300", height="200"/>
+ -->
 
 We need to test the correlation between other datasets though before we can make any generalizations.
